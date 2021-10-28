@@ -26,7 +26,7 @@ export function MessageList() {
   return (
     <div className={styles.messageListWrapper}>
       <img src={logoIgm} alt="DoWhile 2021" />
-
+      
       <ul className={styles.messageList}>
         {messages.map(message => (
           <li className={styles.message} key={message.id}>
